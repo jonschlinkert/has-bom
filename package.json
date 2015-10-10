@@ -1,0 +1,47 @@
+{
+  "name": "has-bom",
+  "description": "Returns true if a buffer or string has a byte order mark (BOM)",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/has-bom",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/has-bom",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/has-bom/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "is-buffer": "^1.1.0",
+    "is-utf8": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "bom",
+    "byte-order-mark",
+    "file",
+    "fs",
+    "nl",
+    "normalize",
+    "buffer"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "cr",
+        "strip-bom-string",
+        "strip-bom-buffer"
+      ]
+    }
+  }
+}
